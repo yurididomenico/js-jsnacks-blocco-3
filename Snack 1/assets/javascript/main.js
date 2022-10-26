@@ -10,7 +10,7 @@ console.log("Ciao!");
 -Inserirli nell’array fino a quando la somma degli elementi è minore di 50.
 */
 
-let v = [];
+/* let v = [];
 let somma = 0;
 let i = 0;
 
@@ -22,13 +22,25 @@ while(somma < 50)
 }
 
 console.log(`La somma è: ${somma}`);
+*/
 
 
+/* 
+*Snack2*
+Il software deve chiedere per 5 volte all’utente di inserire un numero.
+Il programma stampa la somma di tutti i numeri inseriti. 
+*/
 
+let i=0;
+let somma=0;
 
+while(i < 5)
+{
+    somma += parseInt(prompt(`Numero ${i+1}: `));
+    i++;
+}
 
-
-
+console.log(somma);
 
 
 
